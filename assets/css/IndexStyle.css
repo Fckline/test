@@ -1,0 +1,226 @@
+/* стили для переиспользуемых блоков 
+.header{
+    padding:10px;
+    font-size: 1.3em;
+    background-color: white;
+}
+
+*/
+/* Общие стили */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #eeeeee;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;
+}
+
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* ----------- */
+.header {
+    padding: 10px;
+    font-size: 1.3em;
+    background-color: white;
+}
+
+.header-nav {
+    display: flex;
+    justify-items: center;
+}
+
+.header-nav-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav-list-item {
+    text-decoration: none;
+    font-weight: bold;
+    align-self: center;
+    font-size: 0.8em;
+}
+
+.header-nav-list-item a {
+    text-decoration: none;
+    color: #b81f26;
+
+}
+
+.header-nav-list-item:nth-child(1) {
+    width: 10%;
+}
+
+.header-nav-list-item-logo {
+    width: 70%;
+}
+
+.hero-text {
+    margin-top: 20px;
+    padding: 30px;
+    background-color: #efda1b;
+}
+
+
+.hero-text__inner {
+    display: flex;
+    padding: 20px;
+}
+
+.hero-text-main-heading {
+    font-size: 1.8em;
+    color: #b81f26;
+}
+
+.hero-text-main-about-me {
+    color: #b81f26;
+    font-size: 1em;
+}
+
+.hero-text-contacts {
+    margin-left:550px;
+    margin-top: 100px;
+}
+
+.hero-text-contacts img{
+    margin-top:5px;
+    max-width:8%;
+    float:left;
+}
+.hero-text-contacts span{
+    padding-left:10px;
+}
+
+.hero-text-contacts-item {
+    font-weight: bolder;
+    font-size: 1.3em;
+    letter-spacing: 2px;
+}
+
+
+
+.hero-text-contacts-item a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.our-services {
+    padding: 5px;
+}
+
+.our-services-heading {
+    font-size: 1.2em;
+}
+
+.our-services-cards {
+    margin-top: 30px;
+    margin-left: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.our-services-card {
+    display: flex;
+    width: 40%;
+}
+
+.our-services-card object {
+max-width: 50px;
+}
+
+.our-services-card:last-child {
+    align-self: start;
+}
+
+.our-services-card-text {
+    width: 70%;
+    align-self: center;
+    margin-left: 10px;
+}
+
+.our-services-card img {
+    max-width: 10%;
+}
+
+.about-us-befote-text {
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+
+}
+
+.our-advantages {
+    background-color: #efda1b;
+    padding: 40px 0;
+}
+
+.our-advantages-heading {
+    font-size: 1.8em;
+    padding-bottom: 10px;
+}
+.our-advantages-paragraph {
+    margin-left:20px;
+}
+
+
+.our-advantages-hero-list {
+    list-style-type: disc;
+    margin-left: 3%;
+    margin-top:1%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.our-advantages-hero-strong-text {
+    font-size: 1.5em;
+    text-align: center;
+    margin-top:40px;
+
+}
+
+.about-us {
+    padding: 30px 0;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-us-text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer__container {
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.footer-logo {
+    width:6%;
+}
+
+.author {
+    align-self: center;
+    font-size: 1em;
+}
